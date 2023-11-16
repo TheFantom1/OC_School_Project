@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    padding: 7% 0 1.5% 2%;
+    justify-content: space-between;
+}
+
+.header-text {
+    color: #99A2AA;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    display: flex;
+    margin: 2% 0 0 0.5%;
+    text-decoration: none;
+}
+
+a {
+    color: #99A2AA;
+    text-decoration: none;
+}
+
+.header-text {
+    margin-right: 30px;
+}
+
+.tabpanel {
+    height: 70.5vh;
+    width: 100vw;
+    background-color: #FEC524;
+    position: absolute;
+}
+
+.box {
+    width: 0;
+    height: 0;
+    padding: 2% 0 0 2%;
+}
+
+.block {
+    background: #0E2F4B;
+    height: 100vh;
+}
+
+.findindex {
+    background: #0E2F4B;
+    height: 100vh;
+}
+
+.large_box {
+    margin: 0 9% 0 9%;
+}
+
+.whitezone2 {
+    height: 125vh;
+    width: 100vw;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.whitezone {
+    margin: 60% 11% 0 0;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.h2text {
+    margin: 4% 0 0 11%;
+    width: 25vw;
+    color: white;
+    font-size: 44px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: 60px;
+    word-wrap: break-word
+}
+
+.sometext {
+    margin: 3% 0 0 11%;
+    color: #0E2F4B;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.fitext {
+    color: #99A2AA;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    padding: 25% 0 0 11%;
+    position: absolute;
+}
+
+.forminput {
+    margin: 8% 0 0 11%;
+    box-sizing: border-box;
+    width: 46.3%;
+    height: 11vh;
+    padding: 10px 10px 10px 3%;
+    color: #757575;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+}
+
+#forminputindex {
+    margin: 35% 0 0 11%;
+}
+
+#lessop {
+    width: 50%;
+    margin: 17% 0 0 11%;
+    position: absolute;
+}
+
+#upperop {
+    width: 50%;
+    margin: 11% 0 0 11%;
+    position: absolute;
+}
+
+button {
+    width: 19vw;
+    height: 10vh;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3% 0 0 3%;
+    padding: 0 0 0 3%;
+    color: #99A2AA;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 700;
+    box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+}
+
+.indexbutton {
+    margin: 0 0 0 1%;
+    background-color: #FEC524FF;
+    box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 700;
+    color: #0E2F4B;
+    padding: 0 0 0 0;
+}
+
+#headerbuttons {
+    margin: 0 0 0 8%;
+}
+
+#centerbutton {
+    width: 22vw;
+    margin: 8% 4% 0 2%;
+    padding: 0 0 0 0;
+    box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px 21px 45px -20px rgba(0, 0, 0, 0.75);
+}
+
+.svg {
+    margin: -0.5% 0 0 -4%;
+    position: absolute;
+}
+
+#firstid {
+    margin: -18% 0 0 35%;
+    position: absolute;
+}
+
+#secondid {
+    margin: -5% 0 0 35%;
+    position: absolute;
+}
+
+#thirdid {
+    margin: 8% 0 0 35%;
+    position: absolute;
+}
+
+#fourthid {
+    margin: -18% 0 0 70%;
+    position: absolute;
+}
+
+#fiveid {
+    margin: -5% 0 0 70%;
+    position: absolute;
+}
+
+#sixid {
+    margin: 8% 0 0 70%;
+    position: absolute;
+}
+
+.wholething {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 12%;
+}
+
+.col {
+    margin: -15% 0 0 0;
+}
+
+.changed {
+    width: 70%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% 0 0 0;
+    padding: 10% 5% 10% 5%;
+}
+
+#firsth2 {
+    margin: 35% 42% 0 0;
+    position: absolute;
+}
+
+#firsth4 {
+    position: absolute;
+    margin: 45% 65% 0 0;
+    width: 10%;
+}
+
+#secondh4 {
+    position: absolute;
+    margin: 45% 12% 0 0;
+    width: 10%;
+}
+
+#thirdh4 {
+    position: absolute;
+    margin: 45% 0 0 35%;
+}
+
+h2 {
+    color: #0E2F4B;
+    font-size: 48px;
+    font-family: Rubik;
+    font-weight: 700;
+}
